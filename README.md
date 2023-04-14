@@ -1,7 +1,7 @@
 # Odatafy Learnings
 
 ## Bewertungskriterien zur Mobile First Web Applikation
-:large_orange_diamond: 1. Ein repräsentatives [Value Proposition Canvas](https://www.youtube.com/watch?v=ReM1uqmVfP0&t=3s) wurde angefertigt   
+:white_check_mark: 1. Ein repräsentatives [Value Proposition Canvas](https://www.youtube.com/watch?v=ReM1uqmVfP0&t=3s) wurde angefertigt   
 :large_orange_diamond: 2. Die User Stories sind klar dokumentiert   
 :white_check_mark: 3. Die App funktioniert performant und fehlerfrei    
 :white_check_mark: 4. Die App bietet eine gute User Experience (mit wenigen "clicks" ... zum gewünschten Ergebnis...)       
@@ -52,8 +52,23 @@ Products and services:
 * odatafy-plugins (Metadaten-Generierung): Erstellung von OData Metadaten aus ORM-Modellen
 * Kommerzieller Service zur Entwicklung von Applikationen (?)
 
-## User Stories (Fynn)
-Bitte eine User Story mit Cross Compiling :)
+## User Stories
+Als **Donald Developer** will ich ...
+* schnell Applikationen implementieren.
+* einfach zu erlernende Schnittstellen und Module.
+* möglichst wenig Zeit mit Testing, Support und Dokumentation verbringen.
+* Schnelle Implementierung neuer von Modulen.
+* mich selbst nicht mit den "Inner-Workings" oData auseinandersetzen müssen. 
+
+Als **Martin Manager** will ich ... 
+* Konsistent aufgebaute Schnittstellen, da ich ein einheitliches Produktportfolio anbieten will.
+* Flexibilität wenn mir auf einem Manager-Retreat in Norwegen mit anderen Mangern einfällt, dass wir die Datenbank wechseln müssen.
+* Kosten für Testing und Dokumentation reduzieren -> Das kostet schließlich nur Geld und bringt ja nichts.
+* Nur gut gewartete Software benutzen, um auf zukunftsfähige Lösungen zu setzen
+
+Als **Karl Kunde** will ich ...
+* Eine starke Standardisierung, um zu Wissen, dass ich flexibel in der Anbindung anderer Softwarelösungen bin.
+* Natürlich nur Produkte kaufen die auf etablierte Standards setzen.
 
 ## Lernerfahrungen
 ### Frontend / App
