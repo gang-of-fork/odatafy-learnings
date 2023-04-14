@@ -9,7 +9,7 @@
 :white_check_mark: 6. Hohe Codequalität (Separation of Concerns, High Cohesion, Loose Coupling, [automatisierte Tests](https://medium.com/remix-ide/solidity-unit-testing-using-remix-tests-part-1-bc10ab1be864) --> leichte Wartbarkeit...)    
 :white_check_mark: 7. Continuous Integration / Continuous Deployment ist sauber automatisiert (z.B. via GitHub Actions)      
 :large_orange_diamond: 8. Die Lernerfahrungen der einzelnen Gruppen wurden sauber dokumentiert (z.B. in einer learnings.md Datei)    
-:large_orange_diamond: 9. Die Technologieentscheidungen der einzelnen Gruppen wurden sauber dokumentiert (z.B. in einer technology-decisions.md Datei)     
+:white_check_mark: 9. Die Technologieentscheidungen der einzelnen Gruppen wurden sauber dokumentiert (z.B. in einer technology-decisions.md Datei)     
 :white_check_mark: 10. Jedes Teammitglied hat erfolgreich zum Projekt beigetragen (e.g. erkennbar an der Commit Historie...)
 
 
