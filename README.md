@@ -17,11 +17,28 @@
 
 ## User Stories (Fynn)
 
-## Lernerfahrungen (Robin)
+## Lernerfahrungen
 
-## Technologieentscheidungen (Robin)
+
+
+## Technologieentscheidungen
+### mooDatafyler
+**@Maik oder @Styffn, bitte ergänzen**
+### Framework
+Das ODatafy Framework ist in node.js geschrieben. Da unsere favorisierte Datenbank MongoDB ist, und es keinen nativen MongoDB Driver für deno gibt, haben wir node.js deno vorgezogen. Außerdem war zum Entwickeln des Odatafy Parsers das Konstruieren eines Zustandsautomats von Nöten. In node.js gibt es mit dem npm Modul [peggy](https://www.npmjs.com/package/peggy) ein etabliertes (25.000 weekly downloads) Modul zum generieren von Parsern aus formalen Grammatiken. Dass deno keine vergleichbaren Tools anbietet ist ein weiteres Argument für node.js und gegen deno.
+### Dokumentation
+Die Dokumentation wurde mit Hilfe von [mkdocs](https://www.mkdocs.org/) entwickelt. MkDocs ist ein python Projekt, mit dem sich HTML Dokumentationen aus markdown Dateien generieren lassen und ermöglicht uns maximal schöne und benutzbare Dokumentationen bei minimalem Aufwand, sodass wir uns auf das Entwickeln des Frameworks konzentrieren konnten.
+### CI/CD
+Für die CI/CD Integrationen verwenden wir GitHub Actions. Als mit GitHub nativ integrierter CI/CD Lösung eignet es sich bestens für dieses Projekt, zumal es auch schnelle Erfolge mit wenig Aufwand ermöglicht. 
+* odatafy-parser: automatisches Ausführen der Unit und Integrationstests und Veröffentlichung der neuen Version auf npm
+* odatafy-mongodb: automatisches Ausführen der Unit und Integrationstests und Veröffentlichung der neuen Version auf npm
+* odatafy-mongoose: automatisches Ausführen der Unit und Integrationstests und Veröffentlichung der neuen Version auf npm
+* odatafy-parser Dokumentationen: automatischer Build der Dokumentationen und Deployment mit GitHub Pages
+* odatafy-mongodb-example: automatischer Build des Docker-Images und Deployment als Docker-Container auf einem Linux V-Server von flixhost
+* odatafy-flutter-app: Als App für mobile Devices ist aktuell noch kein sinnvolles automatisiertes Deployment möglich 
 
 ## Links
+* [odatafy-flutter-app](https://github.com/gang-of-fork/odatafy-flutter-app)
 * [odatafy-parser](https://github.com/gang-of-fork/odatafy-parser)
 * [odatafy-parser Dokumentation](https://gang-of-fork.github.io/odatafy-docs/)
 * [odatafy-parser TypeDoc Dokumentation](https://gang-of-fork.github.io/odatafy-parser/)
