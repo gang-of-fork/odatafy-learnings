@@ -13,14 +13,19 @@
 :white_check_mark: 10. Jedes Teammitglied hat erfolgreich zum Projekt beigetragen (e.g. erkennbar an der Commit Historie...)
 
 
-## Value Proposition Canvas
+## Value Proposition Canvas (Fynn)
 
-## User Stories
+## User Stories (Fynn)
 
-## Lernerfahrungen
+## Lernerfahrungen (Robin)
 
-## Technologieentscheidungen
+## Technologieentscheidungen (Robin)
 
-## Links zu den Repos
-
+## Links
+* [odatafy-parser](https://github.com/gang-of-fork/odatafy-parser)
+* [odatafy-parser Dokumentation](https://gang-of-fork.github.io/odatafy-docs/)
+* [odatafy-parser TypeDoc Dokumentation](https://gang-of-fork.github.io/odatafy-parser/)
+* [odatafy-mongodb](https://github.com/gang-of-fork/odatafy-mongodb)
+* [odatafy-mongoose](https://github.com/gang-of-fork/odatafy-mongoose)
+* [odatafy-mongodb-example](https://github.com/gang-of-fork/odatafy-mongodb-example)
 
