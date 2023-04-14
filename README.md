@@ -15,7 +15,7 @@
 
 ## Value Proposition Canvas
 
-####Customer Profile
+#### Customer Profile
 Gains:
 * Schnelle Erstellung von REST-APIs
 * Einhaltung eines standardisierten URL-Protokolls
@@ -30,11 +30,15 @@ Pains:
 Customer jobs:
 * Implementierung von REST-APIs
 * Zur Verfügung stellen von Prozessen für Support und Dokumentation
+* Erlernen und Einführen neuer Module
+* Ermöglichen schnelle
 
-####Value Proposition
+#### Value Proposition
 
 Gain creators:
 * Implementierung eines etablierten Standards (Hohe Verwendung bei SAP und Microsoft) -> Reduktion von Dokumentations-, Schulungs-, und Supportaufwand
+* Verwendung von Open Source Software -> Umsetzung der Open Source Strategie (Vorgabe in vielen Unternehmen und öffentlichen Institutionen)
+* Niedrige Einstiegshürde durch Plug-and-Play und minimal Config Ansatz
 
 Pain relievers:
 * Integriertes Ökosystem
