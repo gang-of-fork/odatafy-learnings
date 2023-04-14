@@ -13,7 +13,40 @@
 :white_check_mark: 10. Jedes Teammitglied hat erfolgreich zum Projekt beigetragen (e.g. erkennbar an der Commit Historie...)
 
 
-## Value Proposition Canvas (Fynn)
+## Value Proposition Canvas
+
+####Customer Profile
+Gains:
+* Schnelle Erstellung von REST-APIs
+* Einhaltung eines standardisierten URL-Protokolls
+* Verwendung von Open Source Software
+* Reduktion des Dokumentationsaufwands
+
+Pains:
+* Inkonsistenz innerhalb der eigenen Systemlandschaft im Aufruf von Schnittstellen von Web-Services
+* Hoher Aufwand im Support durch inkonsitentes Service-Design
+* Wenig getestete Eigentwicklungen in Schnittstellen
+
+Customer jobs:
+* Implementierung von REST-APIs
+* Zur Verfügung stellen von Prozessen für Support und Dokumentation
+
+####Value Proposition
+
+Gain creators:
+* Implementierung eines etablierten Standards (Hohe Verwendung bei SAP und Microsoft) -> Reduktion von Dokumentations-, Schulungs-, und Supportaufwand
+
+Pain relievers:
+* Integriertes Ökosystem
+* Einheitliche Schnittstellen zur Anbindung unterschiedlicher Datenbanken/ORMs
+* Sicherstellung der Einhaltung von oData-Standards durch fest definierte Schnittstellen
+* Sicherstellung der kontinuierlichen Weiterentwicklung durch Verwendung in vielen eigenen Projekten in Open Source Team (Gang of Fork)
+
+Products and services:
+* odatafy-core: Generierung eines Abstract-Syntax-Tree zur Weiterverarbeitung in odatafy-plugins
+* odatafy-plugins (DB-Adapter): Erstellung von Datenbankabfragen für diverse Datenbank-Abfragesprachen
+* odatafy-plugins (Metadaten-Generierung): Erstellung von OData Metadaten aus ORM-Modellen
+* Kommerzieller Service zur Entwicklung von Applikationen (?)
 
 ## User Stories (Fynn)
 Bitte eine User Story mit Cross Compiling :)
@@ -50,18 +83,6 @@ Für die CI/CD Integrationen verwenden wir GitHub Actions. Als mit GitHub nativ 
 * odatafy-parser Dokumentationen: automatischer Build der Dokumentationen und Deployment mit GitHub Pages
 * odatafy-mongodb-example: automatischer Build des Docker-Images und Deployment als Docker-Container auf einem Linux V-Server von flixhost
 * odatafy-flutter-app: Als App für mobile Devices ist aktuell noch kein sinnvolles automatisiertes Deployment möglich 
-
-## Verwendung Corporate vs Open Source
-* Anwendung primär im Open Source Bereich und für kleinere produktive Applikationen wie bspw. im Umfeld von Vorlesungsprojekten
-* Anwendung im Corporate Umfeld im Moment noch schwierig
-      * Framework ist noch nicht vollends ausgereift und es werden noch nicht alle odata features supported
-      * Kein Enterprise Support möglich, da wir das nur nebenbei entwickeln
-      * Aktuell noch keine Community, die bei Fragen und Problemen helfen kann
-    
-
-## Ausblick
-* Zukünftig Weiterentwicklung der bereits existierenden Module, um eine möglichst breite Featurepalette anbieten zu können
-* Entwicklung neuer Plugins, um das Portfolio an unterstützten Datenbanken zu erweitern
 
 ## Links
 * [odatafy-flutter-app](https://github.com/gang-of-fork/odatafy-flutter-app)
