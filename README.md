@@ -16,6 +16,7 @@
 ## Value Proposition Canvas (Fynn)
 
 ## User Stories (Fynn)
+Bitte eine User Story mit Cross Compiling :)
 
 ## Lernerfahrungen
 
@@ -23,9 +24,10 @@
 
 ## Technologieentscheidungen
 ### mooDatafyler
-**@Maik oder @Styffn, bitte ergänzen**
+Zur Entwicklung der mooDatafyler Applikation wurde Flutter gewählt. Flutters Cross-Compiling Feature ermöglicht das Verwenden der App auf den beiden verbreitesten mobilen Plattformen, Android und iOS. Die Notwendigkeit der Cross-Plattform Kompatibilität ist in den User Stories begründet.
 ### Framework
 Das ODatafy Framework ist in node.js geschrieben. Da unsere favorisierte Datenbank MongoDB ist, und es keinen nativen MongoDB Driver für deno gibt, haben wir node.js deno vorgezogen. Außerdem war zum Entwickeln des Odatafy Parsers das Konstruieren eines Zustandsautomats von Nöten. In node.js gibt es mit dem npm Modul [peggy](https://www.npmjs.com/package/peggy) ein etabliertes (25.000 weekly downloads) Modul zum generieren von Parsern aus formalen Grammatiken. Dass deno keine vergleichbaren Tools anbietet ist ein weiteres Argument für node.js und gegen deno.
+Bei der Entwicklung der Query Sprache (odatafy) haben wir versucht, Kompatibilität mit dem sehr etablierten oData v4 Standard zu gewährleisten, um einer möglichst großen Gruppe an Entwicklern einen einfachen Einstieg in das Framework zu ermöglichen. 
 ### Dokumentation
 Die Dokumentation wurde mit Hilfe von [mkdocs](https://www.mkdocs.org/) entwickelt. MkDocs ist ein python Projekt, mit dem sich HTML Dokumentationen aus markdown Dateien generieren lassen und ermöglicht uns maximal schöne und benutzbare Dokumentationen bei minimalem Aufwand, sodass wir uns auf das Entwickeln des Frameworks konzentrieren konnten.
 ### CI/CD
