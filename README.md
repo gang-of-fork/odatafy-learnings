@@ -19,7 +19,9 @@
 Bitte eine User Story mit Cross Compiling :)
 
 ## Lernerfahrungen
+### Frontend / App
 
+### Backend / Framework
 
 
 ## Technologieentscheidungen
