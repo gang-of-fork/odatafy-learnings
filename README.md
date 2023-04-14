@@ -51,6 +51,16 @@ Für die CI/CD Integrationen verwenden wir GitHub Actions. Als mit GitHub nativ 
 * odatafy-mongodb-example: automatischer Build des Docker-Images und Deployment als Docker-Container auf einem Linux V-Server von flixhost
 * odatafy-flutter-app: Als App für mobile Devices ist aktuell noch kein sinnvolles automatisiertes Deployment möglich 
 
+## Verwendung Corporate vs Open Source
+* Anwendung primär im Open Source Bereich und für kleinere produktive Applikationen wie bspw. im Umfeld von Vorlesungsprojekten
+* Anwendung im Corporate Umfeld im Moment noch schwierig
+      * Framework ist noch nicht vollends ausgereift und es werden noch nicht alle odata features supported
+      * Kein Enterprise Support möglich, da wir das nur nebenbei entwickeln
+      * Aktuell noch keine Community, die bei Fragen und Problemen helfen kann
+    
+
+## Ausblick
+
 ## Links
 * [odatafy-flutter-app](https://github.com/gang-of-fork/odatafy-flutter-app)
 * [odatafy-parser](https://github.com/gang-of-fork/odatafy-parser)
