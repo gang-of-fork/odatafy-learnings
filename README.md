@@ -60,6 +60,8 @@ Für die CI/CD Integrationen verwenden wir GitHub Actions. Als mit GitHub nativ 
     
 
 ## Ausblick
+* Zukünftig Weiterentwicklung der bereits existierenden Module, um eine möglichst breite Featurepalette anbieten zu können
+* Entwicklung neuer Plugins, um das Portfolio an unterstützten Datenbanken zu erweitern
 
 ## Links
 * [odatafy-flutter-app](https://github.com/gang-of-fork/odatafy-flutter-app)
