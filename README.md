@@ -11,3 +11,16 @@
 :large_orange_diamond: 8. Die Lernerfahrungen der einzelnen Gruppen wurden sauber dokumentiert (z.B. in einer learnings.md Datei)    
 :large_orange_diamond: 9. Die Technologieentscheidungen der einzelnen Gruppen wurden sauber dokumentiert (z.B. in einer technology-decisions.md Datei)     
 :white_check_mark: 10. Jedes Teammitglied hat erfolgreich zum Projekt beigetragen (e.g. erkennbar an der Commit Historie...)
+
+
+## Value Proposition Canvas
+
+## User Stories
+
+## Lernerfahrungen
+
+## Technologieentscheidungen
+
+## Links zu den Repos
+
+
