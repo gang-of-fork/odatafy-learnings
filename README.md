@@ -25,7 +25,12 @@ Bitte eine User Story mit Cross Compiling :)
 Bei der Entwicklung des odatafy Frameworks kam es zu diversen Learnings, von denen die wichtigsten nachfolgend zusammengestellt sind:
 * Entwickeln einer formalen Grammatik mit peggyjs
 * Automatischer Release von npm Modulen mit GitHub Actions
-* Test-Driven-Development
+* Test-Driven-Development mit mocha.js in großen Applikationen
+    * Durch die unfassbare Komplexität der formalen Grammatiken und der vielen unterstützen Features haben wir das Test-Driven-Development sehr zu schätzen gelernt, da es ab einer gewissen Applikationsgröße die einzige Möglichkeit ist, sich wirklich sicher zu sein, dass alles ordnungsgemäß funktioniert
+    * Außerdem ist uns klar geworden, was für eine Erleichterung es ist, nach einer minimalen Änderung einfach durch Ausführen der Tests sicherstellen kann, dass keine Seiteneffekte der Änderung übersehen wurden, ohne dass aufwendige und zeitfressende manuelle Tests notwendig sind
+* Entwickeln und vor allem automatisches Generieren von Queries des MongoDB Aggregation Frameworks
+* Verwendung und Entwicklung einer Applikation im oData v4 Standard
+* Entwicklung einer sinnvollen Struktur eines Abstract Syntax Trees (AST)
 
 
 ## Frontend / App
