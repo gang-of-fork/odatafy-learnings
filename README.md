@@ -33,8 +33,8 @@ Bei der Entwicklung des odatafy Frameworks kam es zu diversen Learnings, von den
 * Entwicklung einer sinnvollen Struktur eines Abstract Syntax Trees (AST)
 
 
-## Frontend / App
-### mooDatafyler
+## Technologienentscheidung
+### Frontend / App
 Zur Entwicklung der mooDatafyler Applikation wurde Flutter gewählt. Flutters Cross-Compiling Feature ermöglicht das Verwenden der App auf den beiden verbreitesten mobilen Plattformen, Android und iOS. Die Notwendigkeit der Cross-Plattform Kompatibilität ist in den User Stories begründet.
 ### Framework
 Das ODatafy Framework ist in node.js geschrieben. Da unsere favorisierte Datenbank MongoDB ist, und es keinen nativen MongoDB Driver für deno gibt, haben wir node.js deno vorgezogen. Außerdem war zum Entwickeln des Odatafy Parsers das Konstruieren eines Zustandsautomats von Nöten. In node.js gibt es mit dem npm Modul [peggy](https://www.npmjs.com/package/peggy) ein etabliertes (25.000 weekly downloads) Modul zum generieren von Parsern aus formalen Grammatiken. Dass deno keine vergleichbaren Tools anbietet ist ein weiteres Argument für node.js und gegen deno.
